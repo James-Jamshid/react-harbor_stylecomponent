@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+Link{
+  cursor: pointer;
+  text-decoration-line: none;
+  color: black;
+}
+Link:hover{
+  color: #b3b2ae;
+  transform: scale(1.1);
+  background-color: #000;
+ 
+  transition: all 100ms ease;
+
+}
+p{
+  color:  #28514F
+}
+h5{
+  color:  #28514F
+}
+h1{
+  color: #28514F
+
+}
+h2{
+  color: #28514F
+
+}
+h5:hover{
+  color: #b3b2ae;
+  transform: scale(1.1);
+ 
+  transition: all 100ms ease;
+}
+h1:hover{
+  color: #b3b2ae;
+  transform: scale(1.);
+  
+  transition: all 100ms ease;
+}
+
+#btn:hover{
+  background-color: black;
+  transform: scale(1.01);
+    /* transition: all ; */
+    transition: all 0.1 ease;
+   
+    box-shadow: 0 0 5px #000;
+
+}
+#btn2:hover{
+  background-color: black;
+  transform: scale(1.01);
+    /* transition: all ; */
+    transition: all 0.1 ease;
+   
+    box-shadow: 0 0 5px #000;
+
+}
+#btn2{
+  background-color: #AEB4B6;
+  cursor: pointer;
+}
